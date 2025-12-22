@@ -66,31 +66,7 @@ Production research platform running on a 7-node Proxmox cluster built from mini
 
 ### Architecture Diagram
 
-```mermaid
-graph TD
-    A[UDM Pro Gateway] --> B[USW Pro Agg 10G Switch]
-    
-    B --> C[node01<br/>i9-12900H 20c]
-    B --> D[node02<br/>i5-12600H 16c]
-    B --> E[node03<br/>i9-12900H 20c]
-    B --> F[node04<br/>i9-12900H 20c]
-    B --> G[node05<br/>i5-12600H 16c]
-    B --> H[node06<br/>i9-13900H 20c]
-    B --> I[node07<br/>5950X 32c + A4000]
-    
-    C --> J[RKE2 K8s Cluster]
-    E --> J
-    F --> J
-    
-    H --> K[PostgreSQL + Neo4j]
-    I --> L[GPU Workloads]
-    
-    style A fill:#e1f5fe
-    style B fill:#f3e5f5
-    style J fill:#e8f5e8
-    style K fill:#fff3e0
-    style L fill:#fce4ec
-```
+![architecture-diagram](https://github.com/user-attachments/assets/3c73a798-8e7a-49b8-a05a-836e677cc094)
 
 ### Platform Capabilities
 
