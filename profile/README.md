@@ -10,7 +10,7 @@ status: "Published"
 
 # RadioAstronomy.io
 
-![Generated Image December 22, 2025 - 1_40AM](https://github.com/user-attachments/assets/1ef9aef9-fb25-496e-a84e-5a9c52848ff2)
+![repository-hero-banner](https://github.com/user-attachments/assets/41059111-f7be-46dd-87ca-739f7eb1fb15)
 
 **Astronomical research computing platform designed as a skill multiplier laboratory**
 
