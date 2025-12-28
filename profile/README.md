@@ -1,9 +1,9 @@
 <!--
 ---
 title: "radioastronomyio Organization"
-description: "Astronomical research computing platform designed as a skill multiplier laboratory"
+description: "Computational astronomy research using DESI and large spectroscopic surveys"
 author: "VintageDon"
-date: "2025-12-22"
+date: "2025-12-28"
 status: "Published"
 ---
 -->
@@ -12,15 +12,15 @@ status: "Published"
 
 ![repository-hero-banner](https://github.com/user-attachments/assets/41059111-f7be-46dd-87ca-739f7eb1fb15)
 
-**Astronomical research computing platform designed as a skill multiplier laboratory**
+**Computational astronomy research investigating galaxy evolution, cosmic large-scale structure, and quasar physics using DESI and modern spectroscopic surveys**
 
 ---
 
 ## 🔭 Mission
 
-This organization develops enterprise-grade astronomical research computing infrastructure that creates cascading skill development across systems engineering, DevOps, security, automation, machine learning, and AI. Every infrastructure decision drives research capability, which informs better automation, which teaches deeper technical skills.
+This organization produces research outputs in astronomy and data science, building analysis-ready datasets from large public sources. The methodology was validated through the [Steam Dataset 2025](https://github.com/vintagedon/steam-dataset-2025) — a multi-modal gaming analytics ARD with strong engagement and downloads on both [Kaggle](https://www.kaggle.com/datasets/vrfrex/steam-dataset-2025-multi-modal-gaming-analytics) and [Zenodo](https://zenodo.org/records/13894078) — and is now being applied to DESI DR1 spectroscopic surveys.
 
-Our work focuses on computational analysis of high-quality public astronomical datasets, positioning for upcoming surveys like Vera Rubin Observatory while building reproducible workflows that demonstrate how modern enterprise practices enable rather than hinder scientific research.
+Current work spans galaxy evolution in different cosmic environments, AGN feedback mechanisms, and ML-driven spectral analysis. The research runs on purpose-built infrastructure that enables reproducibility at scale, and the entire system functions as a skill multiplier across systems engineering, DevOps, security, and machine learning.
 
 ---
 
@@ -29,17 +29,82 @@ Our work focuses on computational analysis of high-quality public astronomical d
 | Repository | Domain | Description | Status |
 |------------|--------|-------------|--------|
 | [proxmox-astronomy-lab](https://github.com/radioastronomyio/proxmox-astronomy-lab) | Infrastructure | Platform documentation, VM inventory, network architecture | Production |
-| [desi-cosmic-void-galaxies](https://github.com/radioastronomyio/desi-cosmic-void-galaxies) | Research | Galaxy populations in cosmic voids using DESI DR1 | Active |
-| [desi-quasar-outflows](https://github.com/radioastronomyio/desi-quasar-outflows) | Research | AGN outflow spectral fitting and Cloudy modeling | Active |
-| [desi-qso-anomaly-detection](https://github.com/radioastronomyio/desi-qso-anomaly-detection) | Research | ML anomaly detection for quasar spectra | Active |
+| [desi-cosmic-void-galaxies](https://github.com/radioastronomyio/desi-cosmic-void-galaxies) | Research | ARD factory + environmental quenching in cosmic voids | Active |
+| [desi-quasar-outflows](https://github.com/radioastronomyio/desi-quasar-outflows) | Research | AGN outflow spectral fitting and Cloudy modeling | Planned |
+| [desi-qso-anomaly-detection](https://github.com/radioastronomyio/desi-qso-anomaly-detection) | Research | ML anomaly detection for quasar spectra | Planned |
 | [rbh1-validation-reanalysis](https://github.com/radioastronomyio/rbh1-validation-reanalysis) | Research | Independent reanalysis of RBH-1 hypervelocity SMBH candidate | Active |
 | [year-of-code-2026](https://github.com/radioastronomyio/year-of-code-2026) | Development | 2026 project sandbox: AI, ML, agentic coding, cloud infrastructure | Active |
+| [.github](https://github.com/radioastronomyio/.github) | Meta | Organization profile and templates | — |
+
+---
+
+## 🔬 Active Repositories
+
+### Proxmox Astronomy Lab
+
+![proxmox-astronomy-lab-repo-banner](https://github.com/user-attachments/assets/625a45ef-cdad-4189-956e-691da996d6d0)
+
+The infrastructure foundation for all research workloads. Documents the 7-node Proxmox cluster, VM inventory, network architecture, and automation patterns. This is the platform that enables reproducible, scalable research across all projects.
+
+### DESI Cosmic Void Galaxies
+
+![desi-cosmic-void-galaxies](https://github.com/user-attachments/assets/8c99b694-c2a9-479f-98c7-f3f9b01008a3)
+
+Analyzing galaxy populations within cosmic voids using DESI Data Release 1 to investigate environmental quenching mechanisms. This project serves as the Analysis-Ready Dataset (ARD) factory for the organization, joining 9 Value-Added Catalogs into enriched data products that feed downstream research.
+
+### DESI Quasar Outflows
+
+![desi-quadar-outflows](https://github.com/user-attachments/assets/b46a07bc-56a2-42fc-8f33-1026b3ebf468)
+
+Investigating AGN-driven outflows through semi-automated spectral fitting combined with Cloudy photoionization modeling. Developing automated pipelines to identify and characterize outflows in massive spectroscopic datasets.
+
+### DESI Anomalous Quasar Detection
+
+![desi-qad](https://github.com/user-attachments/assets/f059e3a1-db39-422b-a4a6-a23edbe6041c)
+
+ML-based anomaly detection across millions of quasar spectra. Implementing 1D convolutional variational autoencoders on Ray clusters to identify statistically unusual objects that may represent new physics or rare phenomena.
+
+### RBH-1 Validation Reanalysis
+
+![rbh-1-validation-repo-banner](https://github.com/user-attachments/assets/483e2834-dc3d-44ef-8328-2182e6f5ef41)
+
+Independent validation and reanalysis of the RBH-1 hypervelocity SMBH candidate (van Dokkum et al. 2025) using Bayesian inference and GPU-accelerated computing.
+
+### Year of Code 2026
+
+![year-of-code-2026-repo-banner](https://github.com/user-attachments/assets/6a203d42-0ac7-4043-b585-9cf748b17d04)
+
+2026 project sandbox covering AI, ML, agentic coding, RAG systems, cloud infrastructure, and the occasional side project. A space for experimentation and skill development across the full technology stack.
+
+---
+
+## 📊 Data Assets
+
+Our research consumes DESI Data Release 1 Value-Added Catalogs, materialized through PostgreSQL and distributed as Parquet files.
+
+### DESI DR1 Value-Added Catalogs
+
+| VAC | Purpose | Scale |
+|-----|---------|-------|
+| [FastSpecFit](https://data.desi.lbl.gov/doc/releases/dr1/vac/fastspecfit/) | Stellar continuum modeling, emission line fluxes | 6.4M galaxies |
+| [PROVABGS](https://data.desi.lbl.gov/doc/releases/edr/vac/provabgs/) | Bayesian SED fitting, stellar mass, SFH | BGS sample |
+| [DESIVAST](https://data.desi.lbl.gov/doc/releases/dr1/vac/desivast/) | Void classifications (4 algorithms) | ~10.7K voids |
+| [Gfinder](https://data.desi.lbl.gov/doc/releases/dr1/vac/gfinder/) | Group catalog, halo mass estimates | Group members |
+| [AGN/QSO](https://data.desi.lbl.gov/doc/releases/dr1/vac/agnqso/) | Systemic redshifts, BAL flags, spectral classification | 1.4M QSOs |
+| [CIV Absorber](https://data.desi.lbl.gov/doc/releases/dr1/vac/civ-absorber/) | Intervening CIV absorption systems | Absorber catalog |
+| [MgII Absorber](https://data.desi.lbl.gov/doc/releases/dr1/vac/mgii-absorber/) | Intervening MgII absorption systems | Absorber catalog |
+| [QMassIron](https://data.desi.lbl.gov/doc/releases/dr1/vac/qmassiron/) | Black hole masses, bolometric luminosity | QSO subset |
+| [Stellar Mass/EmLine](https://data.desi.lbl.gov/doc/releases/dr1/vac/stellar-mass-emline/) | CIGALE stellar masses, emission line properties | Full sample |
+
+### Data Pipeline
+
+PostgreSQL serves as the materialization engine where VAC joins and derived computations occur. Final ARD products are exported to Parquet for distribution and analysis. The pipeline currently manages ~32GB of catalog data in PostgreSQL and ~108GB of spectral tiles in Parquet format.
 
 ---
 
 ## 🏗️ Platform Architecture
 
-Production research platform running on a 7-node Proxmox cluster built from mini-PC form factor workstations.
+Production research platform running on a 7-node Proxmox cluster built from small form factor enterprise workstations. The cluster provides dedicated database servers, GPU compute, and Kubernetes orchestration for containerized workloads.
 
 ### Cluster Specifications
 
@@ -57,12 +122,28 @@ Production research platform running on a 7-node Proxmox cluster built from mini
 | Node | CPU | Cores | RAM | Role |
 |------|-----|-------|-----|------|
 | node01 | i9-12900H | 20 | 96 GB | Compute (K8s) |
-| node02 | i5-12600H | 16 | 96 GB | Light compute + 6T storage |
+| node02 | i5-12600H | 16 | 96 GB | Light compute + 6TB storage |
 | node03 | i9-12900H | 20 | 96 GB | Compute (K8s) |
 | node04 | i9-12900H | 20 | 96 GB | Compute (K8s) |
-| node05 | i5-12600H | 16 | 96 GB | Light compute + 6T storage |
+| node05 | i5-12600H | 16 | 96 GB | Light compute + 6TB storage |
 | node06 | i9-13900H | 20 | 96 GB | Heavy compute (databases) |
 | node07 | AMD 5950X | 32 | 128 GB | GPU compute |
+
+### VM Inventory
+
+Research workloads run on dedicated VMs with role-specific resource allocation.
+
+| VM | IP | vCPU | RAM | Purpose |
+|----|-----|------|-----|---------|
+| radio-k8s01 | 10.25.20.4 | 12 | 48G | Kubernetes primary node |
+| radio-k8s02 | — | 12 | 48G | Kubernetes worker |
+| radio-k8s03 | — | 12 | 48G | Kubernetes worker |
+| radio-gpu01 | 10.25.20.10 | 12 | 48G | GPU worker (A4000) + K8s |
+| radio-pgsql01 | 10.25.20.8 | 8 | 32G | Research PostgreSQL (pgvector, PostGIS) |
+| radio-pgsql02 | 10.25.20.16 | 4 | 16G | Application PostgreSQL |
+| radio-neo4j01 | 10.25.20.21 | 6 | 24G | Graph database |
+| radio-fs02 | 10.25.20.15 | 4 | 6G | SMB file server (spectral data) |
+| radio-agents01 | 10.25.20.20 | 8 | 32G | AI agents, monitoring stack |
 
 ### Architecture Diagram
 
@@ -74,36 +155,6 @@ Production research platform running on a 7-node Proxmox cluster built from mini
 - **Enterprise Security Baseline**: CIS Controls implementation with research workflow accommodations
 - **Secure Remote Access**: Entra ID hybrid identity with Cloudflare ZTNA
 - **Open Source Toolchain**: GitOps automation, container orchestration, scientific computing workflows
-
----
-
-## 🔬 Active Research
-
-### DESI Cosmic Void Analysis
-
-![desi-cosmic-void-galaxies](https://github.com/user-attachments/assets/8c99b694-c2a9-479f-98c7-f3f9b01008a3)
-
-Analyzing large-scale structure using DESI Data Release 1, examining galaxy populations within cosmic voids. Processing 30GB+ PostgreSQL datasets, implementing statistical analysis pipelines, and developing 3D void mapping visualizations.
-
-### DESI Quasar Outflows
-
-![desi-quadar-outflows](https://github.com/user-attachments/assets/b46a07bc-56a2-42fc-8f33-1026b3ebf468)
-
-Investigating AGN-driven outflows through semi-automated spectral fitting combined with Cloudy photoionization modeling. Developing automated pipelines to identify and characterize outflows in massive spectroscopic datasets.
-
-### DESI Anomalous Quasar Detection
-
-![desi-qad](https://github.com/user-attachments/assets/f059e3a1-db39-422b-a4a6-a23edbe6041c)
-
-
-ML-based anomaly detection across millions of quasar spectra. Implementing 1D convolutional variational autoencoders on Ray clusters to identify statistically unusual objects that may represent new physics or rare phenomena.
-
-### RBH-1 Validation Reanalysis
-
-![rbh1-validation-reanalysis-hero-banner-min](https://github.com/user-attachments/assets/ebba8a9e-354a-486c-9016-65e50058af8d)
-
-
-Independent validation and reanalysis of the RBH-1 hypervelocity SMBH candidate (van Dokkum et al. 2025) using Bayesian inference and GPU-accelerated computing.
 
 ---
 
@@ -168,14 +219,14 @@ This organization benefits from open source programs that provide tooling to qua
 
 ## 🌟 Open Science Philosophy
 
-We practice radical transparency in both research and infrastructure development:
+We practice open science and open methodology — our version of "showing your work":
 
 - **Research methodologies** are fully documented and repeatable
 - **Infrastructure configurations** are version-controlled and automated
-- **Security implementations** demonstrate enterprise practices in research environments
+- **Scripts and pipelines** are published so others can learn, adapt, or improve them
 - **Learning processes** are captured and shared for community benefit
 
-All projects operate under open source licenses (primarily MIT) to ensure maximum reproducibility.
+Our hope is that these materials help someone facing similar challenges, or inspire collaboration that helps us. All projects operate under open source licenses (primarily MIT) to ensure maximum reproducibility.
 
 ---
 
@@ -193,4 +244,4 @@ Projects in this organization are licensed under MIT unless otherwise specified.
 
 ---
 
-*Building astronomical research capability through enterprise infrastructure and skill multiplication*
+*Computational astronomy research through open data, reproducible workflows, and enterprise infrastructure*
