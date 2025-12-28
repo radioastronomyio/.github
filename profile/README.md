@@ -10,6 +10,25 @@ status: "Published"
 
 # RadioAstronomy.io
 
+[![Python](https://img.shields.io/badge/Python-3.12-3776ab?logo=python)](https://www.python.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?logo=typescript)](https://www.typescriptlang.org/)
+[![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash)](https://www.gnu.org/software/bash/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql)](https://www.postgresql.org/)
+[![Neo4j](https://img.shields.io/badge/Neo4j-008cc1?logo=neo4j)](https://neo4j.com/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb)](https://www.mongodb.com/)
+[![DragonflyDB](https://img.shields.io/badge/DragonflyDB-fd4d4d?logo=redis)](https://www.dragonflydb.io/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch)](https://pytorch.org/)
+[![LangChain](https://img.shields.io/badge/LangChain-yellow?logo=langchain)](https://www.langchain.com/)
+[![Ollama](https://img.shields.io/badge/Ollama-222?logo=ollama)](https://ollama.ai/)
+[![MLflow](https://img.shields.io/badge/MLflow-020230?logo=mlflow)](https://mlflow.org/)
+[![Proxmox](https://img.shields.io/badge/Proxmox-E57000?logo=proxmox)](https://www.proxmox.com/)
+[![RKE2](https://img.shields.io/badge/RKE2-326ce5?logo=kubernetes)](https://docs.rke2.io/)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker)](https://www.docker.com/)
+[![Ansible](https://img.shields.io/badge/Ansible-000000?logo=ansible)](https://www.ansible.com/)
+[![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus)](https://prometheus.io/)
+[![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana)](https://grafana.com/)
+[![Loki](https://img.shields.io/badge/Loki-4a8bdb?logo=grafana)](https://grafana.com/oss/loki/)
+
 ![repository-hero-banner](https://github.com/user-attachments/assets/41059111-f7be-46dd-87ca-739f7eb1fb15)
 
 **Computational astronomy research investigating galaxy evolution, cosmic large-scale structure, and quasar physics using DESI and modern spectroscopic surveys**
@@ -155,43 +174,6 @@ Research workloads run on dedicated VMs with role-specific resource allocation.
 - **Enterprise Security Baseline**: CIS Controls implementation with research workflow accommodations
 - **Secure Remote Access**: Entra ID hybrid identity with Cloudflare ZTNA
 - **Open Source Toolchain**: GitOps automation, container orchestration, scientific computing workflows
-
----
-
-## 🧪 Technology Stack
-
-### Languages & Frameworks
-
-[![Python](https://img.shields.io/badge/Python-3.12-3776ab?logo=python)](https://www.python.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?logo=typescript)](https://www.typescriptlang.org/)
-[![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash)](https://www.gnu.org/software/bash/)
-
-### Databases
-
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql)](https://www.postgresql.org/)
-[![Neo4j](https://img.shields.io/badge/Neo4j-008cc1?logo=neo4j)](https://neo4j.com/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb)](https://www.mongodb.com/)
-[![DragonflyDB](https://img.shields.io/badge/DragonflyDB-fd4d4d?logo=redis)](https://www.dragonflydb.io/)
-
-### AI/ML
-
-[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch)](https://pytorch.org/)
-[![LangChain](https://img.shields.io/badge/LangChain-yellow?logo=langchain)](https://www.langchain.com/)
-[![Ollama](https://img.shields.io/badge/Ollama-222?logo=ollama)](https://ollama.ai/)
-[![MLflow](https://img.shields.io/badge/MLflow-020230?logo=mlflow)](https://mlflow.org/)
-
-### Infrastructure
-
-[![Proxmox](https://img.shields.io/badge/Proxmox-E57000?logo=proxmox)](https://www.proxmox.com/)
-[![RKE2](https://img.shields.io/badge/RKE2-326ce5?logo=kubernetes)](https://docs.rke2.io/)
-[![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker)](https://www.docker.com/)
-[![Ansible](https://img.shields.io/badge/Ansible-000000?logo=ansible)](https://www.ansible.com/)
-
-### Observability
-
-[![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus)](https://prometheus.io/)
-[![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana)](https://grafana.com/)
-[![Loki](https://img.shields.io/badge/Loki-4a8bdb?logo=grafana)](https://grafana.com/oss/loki/)
 
 ---
 
