@@ -29,7 +29,7 @@ status: "Published"
 [![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana)](https://grafana.com/)
 [![Loki](https://img.shields.io/badge/Loki-4a8bdb?logo=grafana)](https://grafana.com/oss/loki/)
 
-![repository-hero-banner](https://github.com/user-attachments/assets/41059111-f7be-46dd-87ca-739f7eb1fb15)
+![radioastronomyio-org-repo-banner](https://github.com/user-attachments/assets/4ed8b6e1-740f-46b9-a218-2b229bab8632)
 
 **Computational astronomy research investigating galaxy evolution, cosmic large-scale structure, and quasar physics using DESI and modern spectroscopic surveys**
 
@@ -202,6 +202,8 @@ This organization benefits from open source programs that provide tooling to qua
 ## 🌟 Open Science Philosophy
 
 We practice open science and open methodology — our version of "showing your work":
+
+![repository-hero-banner](https://github.com/user-attachments/assets/41059111-f7be-46dd-87ca-739f7eb1fb15)
 
 - **Research methodologies** are fully documented and repeatable
 - **Infrastructure configurations** are version-controlled and automated
